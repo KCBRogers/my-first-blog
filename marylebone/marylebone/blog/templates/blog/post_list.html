@@ -1,0 +1,261 @@
+
+
+{% load staticfiles %}
+
+
+
+<html>
+
+
+    <head>
+        <title>Marylebone Matters</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "content": {
+    "message": "I am 90% sure that this site doesn't use cookies (so hurrah, you are freed from the realm of biscuits), but just in case continuing to use this site constitutes the acceptance of using cookies "
+  }
+})});
+</script>
+
+
+
+    </head>
+    
+
+    <body>
+		 <div class="topnav">
+
+
+		 	<ul class ="menu2">
+		 		<li><img src="http://ca1-yke.edcdn.com/locations/stations/marylebone.png">
+				<li><a href="#home">HOME</a>
+				<li><a href="#contact">CONTACT</a>
+				<li><a href="#about">ABOUT</a>
+			</ul>
+
+			<ul class = "menu3">
+				<li><a href="#home">Planning</a>
+				<li><a href="#news">Council</a>
+				<li><a href="#contact">Places</a>
+				<li><a href="#about">Fun</a>
+			</ul>
+
+
+			<ul class = "menu4">
+				<li> <a data-toggle="modal" data-target="#myModal">Sign Up to our mailing list</a>
+			</ul>
+		</div> 
+
+
+		<div class = "welcome" >
+			<p> What would you like to do?</p>
+		</div>
+
+		<div class = "linespace">
+		</div>
+
+		<div class = "noidea">
+
+		<div class = "boxes">
+
+		    <div class="boxes2">
+		    <img class="boxes3" border="0" alt="Facebook" src="https://www.royalparks.org.uk/parks/hyde-park/things-to-see-and-do/memorials,-fountains-and-statues/diana-memorial-fountain/_gallery/Diana-Memorial-Fountain-from-across-the-Serpentine.jpg/w_1200.jpg"/>
+		    <p class="boxes4"> Places to Relax</p>
+		    <p class="boxes5"> Enjoy the best places to work, read, or relax.</p>
+		    <form action="http://google.com" class = "button">
+   			 <input type="submit" value="Go There" />
+			</form>
+		    </div>
+
+
+
+		    <div class="boxes2">
+		    <img class="boxes3" border="0" alt="Facebook" src="https://pima-county-schools.s3.amazonaws.com/CMS/17/elections__hero.gif"/>
+		    <p class="boxes4"> Democracy</p>
+		    <p class="boxes5"> Your Local Councillors, Associations, and Forums.</p>
+		    <form action="/democracy" class = "button">
+		    <input type="submit" value="Get Involved" />
+		</form>
+		    </div>
+
+
+		    <div class="boxes2">
+		    <img class="boxes3" border="0" alt="Facebook" src="https://www.westminster.gov.uk/sites/www.westminster.gov.uk/files/uploads/westminster-mile.jpg"/>
+		    <p class="boxes4"> Events</p>
+		    <p class="boxes5"> Things to do this week in Marylebone.</p>
+		    <form action="http://google.com" class = "button">
+		    <input type="submit" value="Enjoy" />
+		</form>
+			</div>
+
+
+		</div>
+
+	</div>
+		</div>
+
+
+
+		<div class="bottom">
+
+			<hr id="clear">
+
+
+		    <div class="bottomboxes2" id="bottom2">
+		    <p class="bottomboxes4"> Accountability</p>
+		    		    <img class="bottomboxes3" border="0" alt="Facebook" src="https://marylebone.org/resources/Pictures/MAlogo.png"/>
+		    <p class="bottomboxes5"> Local Democrasy often lives in an opaque world where councillors are under little scrutiny. This site hope to help there.</p>
+		    </div>
+		    <div class="bottomboxes2">
+		    <p class="bottomboxes4"> Planning</p>
+		    		    <img class="bottomboxes3" border="0" alt="Facebook" src="https://marylebone.org/resources/Pictures/MAlogo.png"/>
+		    <p class="bottomboxes5"> Residents of Marylebone face frequent planning fights to safeguard the area, keep upto date here.</p>
+		    </div>
+		    <div class="bottomboxes2">
+		    <p class="bottomboxes4"> Enjoy Yourself</p>
+		    		    <img class="bottomboxes3" border="0" alt="Facebook" src="https://marylebone.org/resources/Pictures/MAlogo.png"/>
+		    <p class="bottomboxes5"> Maryebone is a wonderful place, and we want to help you find everything amazing about the area.</p>
+		    </div>
+		    <div class="bottomboxes2">
+		    <p class="bottomboxes4"> Historic Sites</p>
+		    		    <img class="bottomboxes3" border="0" alt="Facebook" src="https://marylebone.org/resources/Pictures/MAlogo.png"/>
+		    <p class="bottomboxes5"> The Parish of St. Marylebone (Mary the Good) has existed since the 15th Century with many historic sites.</p>
+		    </div>
+		    <div class="bottomboxes2">
+		    <p class="bottomboxes4"> Local Associations</p>
+		    		    <img class="bottomboxes3" border="0" alt="Facebook" src="https://marylebone.org/resources/Pictures/MAlogo.png"/>
+		    <p class="bottomboxes5"> Resident's interests are often looked after and cared for by local associaitons. You can join them and lend your voice to the area.</p>
+		    </div>
+
+
+<hr width="70%">
+
+		<div class = "prefinal">
+		<div class = "final">
+
+			<p class = "final2"> Buy us a coffee </p>
+			<p class = "final44"> If you'd support the work we do, we'd love it if you'd buy us a coffee
+</p>			  <form action="https://www.patreon.com/" class = "button">
+   			 <input type="submit" value="Thanks" />	</form>
+
+
+
+		</div>
+		<div class = "final">
+
+			<p class = "final2"> Join Us </p>
+			<div class="final44">
+			<p class = "final4"> Sign up to our Newsletter hear about important news that affects you. </p>
+			
+   			 <input type="submit" class="button3" class="signupbtn" value="Sign Up" data-toggle="modal" data-target="#myModal">
+   			
+			
+			</div>
+
+		</div>
+
+
+
+		</div>
+
+
+<p style="font-size: 10"> Thank you for visiting us at Marylebone Matters, if there is anything we can do to help, please let us know. </p>
+
+
+<!-- /// ### need to get a better  logo for everything, go do somethign abou that at some point. -->
+<!-- Trigger the modal with a button -->
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Sign Up</h4>
+      </div>
+      <div class="modal-body">
+        <p>Thank you for agreeing to sign up.</p>
+        <p></p>
+        <p> We will keep you up to date with everything interesting happening in Marylebone, from things that will impact your quality of life, to the cafe's with the best wifi speeds around</p>
+        <p></p>
+               <p> (We'll only send out one email a month, so we promise not to clutter your inbox)</p>
+  
+   <p></p>
+        <p> :) </p>
+        <p></p>
+
+
+        
+        <form id=button2>
+
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+    	<button type="submit" id="button2" class="signupbtn">Sign Up</button>
+
+    </form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<script>
+// Get the modal
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script> 
+
+
+<script>
+	
+ $('#button2').submit(function(e) {
+    e.preventDefault();
+    // Coding
+    $('#myModal').modal('toggle'); //or  $('#IDModal').modal('hide');
+    return false;
+});
+
+</script>
+
+<script>
+if(!document.__defineGetter__) {
+    Object.defineProperty(document, 'cookie', {
+        get: function(){return ''},
+        set: function(){return true},
+    });
+} else {
+    document.__defineGetter__("cookie", function() { return '';} );
+    document.__defineSetter__("cookie", function() {} );
+}
+</script>
